@@ -50,7 +50,7 @@ body {
 
 .hero {
     display: flex;
-    color:#f9faf8
+    color:#f9faf8;
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
@@ -78,6 +78,31 @@ h1 {
     font-size: 1.125rem;
     color:#e5e7eb;
 }
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 10rem;
+    border: none;
+    background-color: #3882F6;
+    padding: 1.125rem;
+    border-radius: 0.5rem;
+    color: #f9faf8;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.125rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.hero-image img {
+    width: 25rem;
+    height: auto;
+    border-radius: 1.125rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .sign {
     background-color: #3882F6;
 }
