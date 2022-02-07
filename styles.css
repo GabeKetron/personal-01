@@ -15,19 +15,19 @@ body {
     display: flex;
     color:#f9faf8;
     background-color: #1f2937;
-    padding: 1.25rem 0 1.25rem 6.25rem;
+    padding: 20px 0px 20px 100px;
     align-items: center;
 }
 .header-logo {
     margin-right: auto;
-    padding: 0 6.25rem 0 0;
+    padding: 0 100px 0 0;
 }
 
 .header-logo a {
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
-    padding: 0.625rem;
+    padding: 10px;
     font-family: 'Roboto', arial;
 }
 .no-wrap {
@@ -37,14 +37,14 @@ body {
 .header-links{
     display: flex;
     margin-left: auto;
-    padding: 0 6.25rem 0 0;
+    padding: 0 100px 0 0;
 }
 
 .header-links a {
-    font-size: 1.125rem;
+    font-size: 18px;
     color:#e5e7eb;
     text-decoration: none;
-    padding: 0.625rem;
+    padding: 10px;
     font-family: 'Roboto', arial;
 }
 
@@ -54,19 +54,19 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
-    padding: 5.625rem;
+    padding: 90px;
 }
 
 .hero-text {
-    flex-basis: 25rem;
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 3.125rem;
+    margin-right: 50px;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
@@ -75,31 +75,31 @@ h1 {
 
 .hero-text p {
     font-family: 'Roboto', arial;
-    font-size: 1.125rem;
+    font-size: 18px;
     color:#e5e7eb;
 }
 
 .hero button {
     display: block;
     text-align: center;
-    width: 10rem;
+    width: 160px;
     border: none;
     background-color: #3882F6;
-    padding: 1.125rem;
-    border-radius: 0.5rem;
+    padding: 18px;
+    border-radius: 8px;
     color: #f9faf8;
     font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .hero-image img {
-    width: 25rem;
+    width: 400px;
     height: auto;
-    border-radius: 1.125rem;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
